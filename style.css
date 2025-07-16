@@ -15,6 +15,8 @@ body {
   padding: 10px 20px;
   background-color: white;
   color: black;
+  position: sticky;
+  top: 0px;
 }
 .nav div img {
   height: 40px;
@@ -157,7 +159,7 @@ justify-items: center;
 
 .img2 img {
     width: 260px;
-    height: 54vh;
+    height: 53vh;
     margin-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -171,7 +173,49 @@ justify-items: center;
 .mob a .p2{
   font-weight: 700;
 }
-
+/* mobile section end  */
+/* home amd furniture top deals */
+.home .home1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ justify-items: center;
+ padding: 10px;
+}
+.home{
+  background-color: white;
+  margin-top: 20px;
+  height: 43vh;
+  width: 98%;
+  margin-left: 14px;
+  
+}
+.home .head  h4{
+  font-size: 30px;
+  padding: 5px;
+  margin: 13px;
+  margin-left: 20px;
+}
+.home .home1 img{
+  width: 140px;
+  height: 160px;
+  transition: transform 0.3s ease-in-out;
+}
+.home .home1 img:hover{
+   transform: scale(1.08);
+}
+.home .home1 a p{
+  color: black;
+}
+.home .home1 a{
+  text-decoration: none;
+  text-align: center;
+}
+.home .home1 .pa2{
+  font-weight: 700;
+  font-size: 16px;
+}
+/* home amd furniture top end */
 
 
 
