@@ -96,4 +96,86 @@ body {
   font-weight: 600;
 }
 /* second navbar complete */
+.slide{
+    
+    height: 34vh;
+justify-items: center;
+  text-align: center;
+  
+   
+}
+.slide img{
+    width: 98%;
+    padding-top: 5px;
+
+}
+/* SLIDE END HO GYA  */
+/* mobile section */
+.mobile {
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    text-align: flex-start;
+    justify-content: center;
+    gap: 10px;
+    
+
+    
+}
+.mobile .mob h4{
+  margin-left: -750px;
+}
+
+.mobile .mob {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    margin-top: 15px;
+    padding-bottom: -20px;
+  }
+
+.mobile .mob h4 {
+    font-size: 30px;
+    padding: 8px;
+    
+}
+
+.mob2 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.mob2  img {
+    height: 150px;
+    padding: 10px;
+    margin: 34px;
+}
+
+.img2 img {
+    width: 260px;
+    height: 54vh;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.mobile .mob div a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+.mob a .p2{
+  font-weight: 700;
+}
+
+
+
+
+
+
+
 
