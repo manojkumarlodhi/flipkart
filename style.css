@@ -240,7 +240,7 @@ justify-items: center;
 .bigdiv3{
   display: flex;
   margin-left: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .bigdiv3 div img{
   width: 487px;
@@ -327,6 +327,90 @@ justify-items: center;
 
 /* footer */
 
+/* masoon Ready style */
+.man{
+  
+  display: flex;
+  margin: 15px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+  margin-top: 10px;
+
+}
+.man .man1{
+  background-color: white;
+  
+  height: 100vh;
+  width: 60%;
+}
+.man .man1 .man2{
+ 
+  display: flex;
+  justify-content: center;
+}
+.man .man1 .man3{
+ 
+  display: flex;
+  justify-content: center;
+}
+.man .mana img{
+  
+  width: 900px;
+  height: 100vh;
+ 
+}
+.man .man1 .man2 .im img{
+  padding: 8px;
+  width: 200px;
+  height: 250px;
+  margin: 20px;
+  transition: transform 0.3s ease-in-out;
+
+}
+.man .man1 .man2 .im img:hover{
+   transform: scale(1.08);
+}
+.man .man1 .man3 .im img{
+  transition: transform 0.3s ease-in-out;
+  width: 200px;
+  height: 240px;
+  margin: 20px;
+  padding: 8px;
+
+}
+.man .man1 .man3 .im img:hover{
+  transform: scale(1.08);
+}
+.man .man1 h4{
+  font-size: 30px;
+  padding: 10px;
+}
+.man .man1 .man2 .im  p{
+  text-align: center; 
+  color: black;
+}
+.man .man1 .man3 .im  p{
+  text-align: center;
+  color: black;
+}
+.man .man1 .man2 .im  a {
+  text-decoration: none;
+  
+}
+.man .man1 .man3 .im  a {
+  text-decoration: none;
+}
+.man .man1 .man3 .im  .p1{
+
+  color: green;
+   font-weight: 600;
+}
+.man .man1 .man2 .im  .p1{
+  
+  color: green;
+  font-weight: 600;
+}
 
 
 
