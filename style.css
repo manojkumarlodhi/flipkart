@@ -216,6 +216,117 @@ justify-items: center;
   font-size: 16px;
 }
 /* home amd furniture top end */
+/* big div */
+.bigdiv{
+  display: flex;
+  padding: 10px 10px 0px 10px;
+  margin-right: 20px;
+}
+.bigdiv div img{
+  width: 487px;
+  margin: 5px;
+}
+/* big div */
+/* big div2 */
+.bigdiv2{
+  display: flex;
+  margin-left: 10px;
+  
+}
+.bigdiv2 div img{
+  width: 487px;
+  margin: 5px;
+}
+.bigdiv3{
+  display: flex;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.bigdiv3 div img{
+  width: 487px;
+  margin: 5px;
+}
+
+/* footer */
+.footer {
+  background-color: #212121;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 40px 20px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-box {
+  flex: 1 1 200px;
+  margin: 20px;
+}
+
+.footer-box h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #878787;
+}
+
+.footer-box a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 8px;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.footer-box a i {
+  margin-right: 8px;
+  color: #ffd700;
+}
+
+.footer-box a:hover {
+  text-decoration: underline;
+  transform: translateX(5px);
+}
+
+.footer-box.address p {
+  font-size: 13px;
+  color: #ccc;
+  margin: 3px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #444;
+  padding-top: 15px;
+  font-size: 13px;
+  color: #999;
+}
+
+.payment-icons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.payment-icons i {
+  font-size: 28px;
+  margin: 0 10px;
+  color: #fff;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.payment-icons i:hover {
+  color: #ffd700;
+  transform: scale(1.2);
+}
+
+/* footer */
+
 
 
 
