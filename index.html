@@ -19,18 +19,20 @@
             <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg"
                 alt="Logo" />
         </div>
-        <div class="search">
+        <div class="search" onmouseleave="g()">
             <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" placeholder="Search for Products, Brands and more" />
+            <input type="text" placeholder="Search for Products, Brands and more" onmouseenter="g()" />
         </div>
-        <div>
+        <div class="login" >
             <i class="fa-solid fa-circle-user"></i>
-            <span><a href="">Login</a></span>
-        </div>
-        <div>
+            <span><a href="" onmouseenter="run()">Login</a></span>
+         </div>
+        
+        <div >
             <i class="fa-solid fa-cart-shopping"></i>
-            <span><a href="">Cart</a></span>
+            <span><a href="" onmouseenter="g()">Cart</a></span>
         </div>
+
         <div>
             <i class="fa-solid fa-store"></i>
             <span><a href="">Become a Seller</a></span>
@@ -39,6 +41,8 @@
             <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
         </div>
     </article>
+    <div id="output" onmouseleave="g()"></div>
+    
     <!-- navbar complete -->
     <article class="nav2">
         <div>
@@ -244,49 +248,55 @@
         </div>
     </article>
     <!-- end  -->
-     <article class="man">
+    <article class="man">
         <div class="man1">
-           <h4>Mansoon Ready Style</h4>
+            <h4>Mansoon Ready Style</h4>
             <div class="man2">
-                 
+
                 <div class="im">
-                   <a href="">
-                     <img src="https://rukminim2.flixcart.com/image/420/420/xif0q/shopsy-slipper-flip-flop/x/s/d/9-waker-maan-grey-original-imagpkf5bbd8khmv.jpeg?q=60" alt="">
-                    <p class="p">Men's Slippers</p>
-                    <p class="p1">Min. 70% off</p>
-                   </a>
+                    <a href="">
+                        <img src="https://rukminim2.flixcart.com/image/420/420/xif0q/shopsy-slipper-flip-flop/x/s/d/9-waker-maan-grey-original-imagpkf5bbd8khmv.jpeg?q=60"
+                            alt="">
+                        <p class="p">Men's Slippers</p>
+                        <p class="p1">Min. 70% off</p>
+                    </a>
                 </div>
                 <div class="im">
-                   <a href="">
-                     <img src="https://rukminim2.flixcart.com/image/420/420/xif0q/pendant-locket/t/x/8/na-na-p042-rv-enterprises-original-imaha6enmkcvw68v.jpeg?q=60" alt="">
-                    <p class="p">Pendals & Lockets</p>
-                    <p class="p1">Min. 70% off</p>
-                   </a>
+                    <a href="">
+                        <img src="https://rukminim2.flixcart.com/image/420/420/xif0q/pendant-locket/t/x/8/na-na-p042-rv-enterprises-original-imaha6enmkcvw68v.jpeg?q=60"
+                            alt="">
+                        <p class="p">Pendals & Lockets</p>
+                        <p class="p1">Min. 70% off</p>
+                    </a>
                 </div>
             </div>
             <div class="man3">
                 <div class="im">
                     <a href="">
-                    <img src="https://rukminim2.flixcart.com/image/420/420/xif0q/belt/l/e/i/40-artificial-leather-belt-with-wallet-jd50001-artificial-original-imahfk72yxg7eq4y.jpeg?q=60" alt="">
-                    <p class="p">Belts</p>
-                    <p class="p1">Min. 70% off</p>
+                        <img src="https://rukminim2.flixcart.com/image/420/420/xif0q/belt/l/e/i/40-artificial-leather-belt-with-wallet-jd50001-artificial-original-imahfk72yxg7eq4y.jpeg?q=60"
+                            alt="">
+                        <p class="p">Belts</p>
+                        <p class="p1">Min. 70% off</p>
                     </a>
                 </div>
                 <div class="im">
-                   <a href="">
-                     <img src="https://rukminim2.flixcart.com/image/420/420/xif0q/cap/y/a/u/free-cap-01-watch-01-sunglass-florida-original-imahdpzzdcdpxqyy.jpeg?q=60" alt="">
-                    <p class="p">Men's Caps</p>
-                    <p class="p1">Min. 70% off</p>
-                   </a>
+                    <a href="">
+                        <img src="https://rukminim2.flixcart.com/image/420/420/xif0q/cap/y/a/u/free-cap-01-watch-01-sunglass-florida-original-imahdpzzdcdpxqyy.jpeg?q=60"
+                            alt="">
+                        <p class="p">Men's Caps</p>
+                        <p class="p1">Min. 70% off</p>
+                    </a>
                 </div>
             </div>
         </div>
         </div>
         <div class="mana">
-            <img src="https://rukminim2.flixcart.com/www/2140/1460/promos/26/09/2023/ed27f892-1bc6-462f-805b-953f5add4f6a.jpg?q=60" alt="">
+            <img class="imgd"
+                src="https://rukminim2.flixcart.com/www/2140/1460/promos/26/09/2023/ed27f892-1bc6-462f-805b-953f5add4f6a.jpg?q=60"
+                alt="" onmouseenter="k()" onmouseleave="k1()">
         </div>
-     </article>
-<!-- foooter  -->
+    </article>
+    <!-- foooter  -->
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-box">
@@ -359,7 +369,7 @@
         </div>
     </footer>
     <!-- footer -->
- <script src="index.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
