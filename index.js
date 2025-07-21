@@ -68,3 +68,42 @@ function g(){
     let output = document.querySelector("#output")
     output.innerHTML =desing
 }
+
+function th(){
+    let des= `
+    <div class="drop-dowm">
+        <div>
+            <a href="">
+                <i class="fa-regular fa-bell"></i>
+                <span><p>Notification Preferences</p></span>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <i class="fa-solid fa-headphones"></i>
+                <span><p>24x7 Customer Care</p></span>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <i class="fa-solid fa-bullhorn ad-icon"></i>
+                <span><p>Advertise</p></span>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <i class="fa-solid fa-download"></i>
+                <span><p>Download App</p></span>
+            </a>
+        </div>
+    </div>
+    `
+   let ou = document.querySelector("#ot") 
+   ou.innerHTML=des
+}
+function thr(){
+    let des=``
+    let ou = document.querySelector("#ot") 
+    ou.innerHTML=des
+
+}

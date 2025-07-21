@@ -60,6 +60,20 @@ body {
   font-size: 18px;
   color: black;
 }
+.threedot {
+  position: relative;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  justify-content: center;
+}
+
+.threedot:hover {
+  background-color: #f7f4f4;
+  border: 1px solid grey;
+}
 .nav .login {
   padding: 8px 12px;
   border-radius: 5px;
@@ -471,7 +485,34 @@ justify-items: center;
   z-index: 1;
   margin-top: 50px;
 }
+
+
 /* end login vala dropdown */
+/* login ke bad vala dropdown */
+.drop-dowm{
+  background-color: white;
+  width: 230px;
+  margin-left: 1270px;
+  height: 170px;
+  justify-content: center;  
+  box-shadow: 0px 0px 3px 3px gray;
+  border-radius: 10px;
+  position: absolute;
+   z-index: 5;
+    top: 100%;
+}
+.drop-dowm div a{
+  display: flex;
+  text-decoration: none;
+  gap: 10px;
+  color: black;
+  padding: 10px;
+}
+#ot{
+  position: absolute;
+  margin-top: 50px;
+}
+
 
 
 
