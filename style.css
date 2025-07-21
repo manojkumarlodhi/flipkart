@@ -1,24 +1,34 @@
 html{
   overflow-x: hidden;
 }
+body,html{
+  margin: 0;
+  padding: 0;
+width: 100vw;
+} 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Segoe UI", sans-serif;
 }
+/* html{
+  overflow-x: hidden;
+} */
 body {
   background-color: #f1f2f4;
 }
 .nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 10px 20px;
+  padding-left: 20px;
   background-color: white;
   color: black;
   position: sticky;
   top: 0px;
+  width: 100vw; 
 }
 .nav div img {
   height: 40px;
@@ -91,6 +101,27 @@ body {
 }
 
 
+/* responsive navbar */
+@media (max-width:1024px){
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: white;
+  }
+
+  .nav .anchor{
+    display: none;
+  }
+  .nav div img {
+  height: 35px;
+  margin-right: 20px;
+  }
+  
+}
+
+
 /* nav second */
 .nav2 {
   display: flex;
@@ -129,6 +160,25 @@ body {
   color: #212121;
   margin-top: 6px;
   font-weight: 600;
+}
+@media (max-width:1024px){
+  .nav2 div img {
+  width: 40px;
+  height: 40px;
+  
+  }
+  .nav2 div{
+    transition: transform 0.3s ease;
+  }
+  .nav2 div:hover {
+  transform: scale(1.05);
+  }
+  .nav2 div p {
+    font-size: 10px;
+    color: #b9294d;
+    margin-top: 6px;
+    font-weight: 600;
+}
 }
 /* second navbar complete */
 .slide{
@@ -512,6 +562,7 @@ justify-items: center;
   position: absolute;
   margin-top: 50px;
 }
+
 
 
 
