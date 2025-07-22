@@ -449,6 +449,11 @@ body {
   width: 487px;
   margin: 5px;
 }
+@media (max-width:1024px){
+  .bigdiv div img{
+    width: 325px;
+  }
+}
 
 /* big div */
 /* big div2 */
@@ -462,6 +467,11 @@ body {
   width: 487px;
   margin: 5px;
 }
+@media (max-width:1024px){
+  .bigdiv2 div img{
+    width: 325px;
+  }
+}
 
 .bigdiv3 {
   display: flex;
@@ -472,6 +482,11 @@ body {
 .bigdiv3 div img {
   width: 487px;
   margin: 5px;
+}
+@media (max-width:1024px){
+  .bigdiv3 div img{
+    width: 325px;
+  }
 }
 
 /* footer */
@@ -656,6 +671,41 @@ body {
 
   color: green;
   font-weight: 600;
+}
+@media (max-width:1024px){
+  .man .mana img {
+
+  width: 490px;
+  height: 95vh;
+
+}
+.man .man1 {
+  background-color: white;
+
+  height: auto;
+  width: 65%;
+}
+.man .man1 h4 {
+  font-size: 22px;
+  padding: 8px;
+}
+.man .man1 h4 {
+  font-size: 22px;
+}
+.man .man1 .man2 .im img {
+    padding: 8px;
+    width: 140px;
+    height: 170px;
+    margin: 30px;
+
+}
+.man .man1 .man3 .im img {
+    padding: 8px;
+    width: 140px;
+    height: 170px;
+    margin: 40px;
+
+}
 }
 
 /* login vala drop down  */
