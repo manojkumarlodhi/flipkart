@@ -752,25 +752,34 @@ body {
 .drop-dowm {
   background-color: white;
   width: 230px;
-  margin-left: 1270px;
-  height: 170px;
-  justify-content: center;
-  box-shadow: 0px 0px 3px 3px gray;
+  margin-left: 1250px;
+  height: auto;
+  position: absolute; 
   border-radius: 10px;
-  position: absolute;
-  z-index: 5;
-  top: 100%;
+  box-shadow: 0px 0px 3px 3px gray;
+  z-index: 5; 
+  justify-content: center; 
+  display: flex; 
+  flex-direction: column;  
+  justify-items: start; 
+  align-items: flex-start; 
+   top: 100%; 
 }
 
 .drop-dowm div a {
   display: flex;
   text-decoration: none;
   gap: 10px;
-  color: black;
-  padding: 10px;
+  align-items: center;
+  align-items: center; 
+  color: #212121;
+  font-size: 16px;
+  padding: 10px; 
+  text-align: left; 
+  justify-content: flex-start;
 }
 
 #ot {
   position: absolute;
   margin-top: 50px;
-}
+} 
