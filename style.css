@@ -1,45 +1,31 @@
-html {
+html{
   overflow-x: hidden;
 }
-
-body,
-html {
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Segoe UI", sans-serif;
 }
-
 /* html{
   overflow-x: hidden;
 } */
 body {
   background-color: #f1f2f4;
 }
-
 .nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 10px 20px;
-  padding-left: 20px;
   background-color: white;
   color: black;
   position: sticky;
   top: 0px;
-  width: 100vw;
 }
-
 .nav div img {
   height: 40px;
 }
-
 .search {
   display: flex;
   align-items: center;
@@ -62,25 +48,21 @@ body {
   background: transparent;
   font-size: 18px;
 }
-
 .nav div {
   display: flex;
   align-items: center;
   gap: 5px;
 }
-
 .nav div a {
   text-decoration: none;
   color: black;
   font-weight: 400;
   font-size: 18px;
 }
-
 .nav div i {
   font-size: 18px;
   color: black;
 }
-
 .threedot {
   position: relative;
   cursor: pointer;
@@ -95,7 +77,6 @@ body {
   background-color: #f7f4f4;
   border: 1px solid grey;
 }
-
 .nav .login {
   padding: 8px 12px;
   border-radius: 5px;
@@ -104,15 +85,13 @@ body {
 }
 
 .nav .login:hover {
-  background-color: #2874f0;
+  background-color: #2874f0; 
 }
 
 .nav .login:hover a,
 .nav .login:hover i {
   color: white;
 }
-
-
 /* responsive navbar */
 @media (max-width:1024px) {
   .nav {
@@ -135,6 +114,7 @@ body {
 }
 
 
+
 /* nav second */
 .nav2 {
   display: flex;
@@ -145,7 +125,7 @@ body {
   border-radius: 5px;
   margin: 10px auto;
   width: 98%;
-
+  
 }
 
 .nav2 div {
@@ -165,7 +145,7 @@ body {
 .nav2 div img {
   width: 64px;
   height: 64px;
-
+  
 }
 
 .nav2 div p {
@@ -174,7 +154,6 @@ body {
   margin-top: 6px;
   font-weight: 600;
 }
-
 @media (max-width:1024px) {
   .nav2 div img {
     width: 40px;
@@ -197,23 +176,20 @@ body {
     font-weight: 600;
   }
 }
-
 /* second navbar complete */
-.slide {
-
-  height: 34vh;
-  justify-items: center;
+.slide{
+    
+    height: 34vh;
+justify-items: center;
   text-align: center;
-
+  
+   
+}
+.slide img{
+    width: 98%;
+    padding-top: 5px;
 
 }
-
-.slide img {
-  width: 98%;
-  padding-top: 5px;
-
-}
-
 @media (max-width:1024px) {
   .slide {
     height: 26vh;
@@ -223,71 +199,67 @@ body {
 /* SLIDE END HO GYA  */
 /* mobile section */
 .mobile {
-  display: flex;
-  height: 50vh;
-  width: 100%;
-  text-align: center;
-  justify-content: space-between;
-  text-align: flex-start;
-  justify-content: center;
-  gap: 10px;
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    text-align: flex-start;
+    justify-content: center;
+    gap: 10px;
+    
 
-
-
+    
 }
-
-.mobile .mob h4 {
+.mobile .mob h4{
   margin-left: -750px;
 }
 
 .mobile .mob {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: white;
-  margin-top: 15px;
-  padding-bottom: -20px;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    margin-top: 15px;
+    padding-bottom: -20px;
+  }
 
 .mobile .mob h4 {
-  font-size: 30px;
-  padding: 8px;
-
+    font-size: 30px;
+    padding: 8px;
+    
 }
 
 .mob2 {
-  display: flex;
-  align-items: center;
-
+    display: flex;
+    align-items: center;
+    
 }
 
-.mob2 img {
-  height: 150px;
-  padding: 10px;
-  margin: 34px;
-
+.mob2  img {
+    height: 150px;
+    padding: 10px;
+    margin: 34px;
+    
 }
 
 .img2 img {
-  width: 260px;
-  height: 53vh;
-  margin-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
-
+    width: 260px;
+    height: 53vh;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
 }
-
 .mobile .mob div a {
   color: black;
   text-decoration: none;
   padding: 10px;
 }
-
-.mob a .p2 {
+.mob a .p2{
   font-weight: 700;
 }
-
 @media (max-width:1024px) {
   .mobile {
     margin-left: 5px;
@@ -349,59 +321,50 @@ body {
   }
 
 }
-
 /* mobile section end  */
 /* home amd furniture top deals */
-.home .home1 {
+.home .home1{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  justify-items: center;
-  padding: 10px;
+ justify-items: center;
+ padding: 10px;
 }
-
-.home {
+.home{
   background-color: white;
   margin-top: 20px;
   height: 43vh;
   width: 98%;
   margin-left: 14px;
-
+  
 }
-
-.home .head h4 {
+.home .head  h4{
   font-size: 30px;
   padding: 5px;
   margin: 13px;
   margin-left: 20px;
 }
-
-.home .home1 img {
+.home .home1 img{
   width: 140px;
   height: 160px;
   transition: transform 0.3s ease-in-out;
-  box-shadow: 5px 5px 7px gray;
-  border-radius: 10px;
+   box-shadow: 5px 5px 7px gray;
+   border-radius: 10px;
 }
-
-.home .home1 img:hover {
-  transform: scale(1.08);
+.home .home1 img:hover{
+   transform: scale(1.08);
 }
-
-.home .home1 a p {
+.home .home1 a p{
   color: black;
 }
-
-.home .home1 a {
+.home .home1 a{
   text-decoration: none;
   text-align: center;
 }
-
-.home .home1 .pa2 {
+.home .home1 .pa2{
   font-weight: 700;
   font-size: 16px;
 }
-
 @media (max-width:1024px) {
   .home .head h4 {
     font-size: 22px;
@@ -436,16 +399,34 @@ body {
     display: flex;
   }
 }
-
 /* home amd furniture top end */
 /* big div */
-.bigdiv {
+.bigdiv{
   display: flex;
   padding: 10px 10px 0px 10px;
   margin-right: 20px;
 }
-
-.bigdiv div img {
+.bigdiv div img{
+  width: 487px;
+  margin: 5px;
+}
+/* big div */
+/* big div2 */
+.bigdiv2{
+  display: flex;
+  margin-left: 10px;
+  
+}
+.bigdiv2 div img{
+  width: 487px;
+  margin: 5px;
+}
+.bigdiv3{
+  display: flex;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.bigdiv3 div img{
   width: 487px;
   margin: 5px;
 }
@@ -455,39 +436,19 @@ body {
   }
 }
 
-/* big div */
-/* big div2 */
-.bigdiv2 {
-  display: flex;
-  margin-left: 10px;
 
-}
-
-.bigdiv2 div img {
-  width: 487px;
-  margin: 5px;
-}
 @media (max-width:1024px){
   .bigdiv2 div img{
     width: 325px;
   }
 }
 
-.bigdiv3 {
-  display: flex;
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
-
-.bigdiv3 div img {
-  width: 487px;
-  margin: 5px;
-}
 @media (max-width:1024px){
   .bigdiv3 div img{
     width: 325px;
   }
 }
+
 
 /* footer */
 .footer {
@@ -570,8 +531,8 @@ body {
 /* footer */
 
 /* masoon Ready style */
-.man {
-
+.man{
+  
   display: flex;
   margin: 15px;
   align-items: center;
@@ -580,34 +541,29 @@ body {
   margin-top: 10px;
 
 }
-
-.man .man1 {
+.man .man1{
   background-color: white;
-
+  
   height: 100vh;
   width: 60%;
 }
-
-.man .man1 .man2 {
-
+.man .man1 .man2{
+ 
   display: flex;
   justify-content: center;
 }
-
-.man .man1 .man3 {
-
+.man .man1 .man3{
+ 
   display: flex;
   justify-content: center;
 }
-
-.man .mana img {
-
+.man .mana img{
+  
   width: 900px;
   height: 100vh;
-
+ 
 }
-
-.man .man1 .man2 .im img {
+.man .man1 .man2 .im img{
   padding: 8px;
   width: 200px;
   height: 250px;
@@ -617,61 +573,52 @@ body {
   border-radius: 10px;
 
 }
-
-.man .man1 .man2 .im img:hover {
-  transform: scale(1.08);
+.man .man1 .man2 .im img:hover{
+   transform: scale(1.08);
 }
-
-.man .man1 .man3 .im img {
+.man .man1 .man3 .im img{
   transition: transform 0.3s ease-in-out;
   width: 200px;
   height: 240px;
   margin: 22px;
   padding: 8px;
   box-shadow: 5px 5px 10px gray;
-  border-radius: 10px;
+   border-radius: 10px;
 
 }
-
-.man .man1 .man3 .im img:hover {
+.man .man1 .man3 .im img:hover{
   transform: scale(1.08);
 }
-
-.man .man1 h4 {
+.man .man1 h4{
   font-size: 30px;
   padding: 10px;
 }
-
-.man .man1 .man2 .im p {
+.man .man1 .man2 .im  p{
+  text-align: center; 
+  color: black;
+}
+.man .man1 .man3 .im  p{
   text-align: center;
   color: black;
 }
-
-.man .man1 .man3 .im p {
-  text-align: center;
-  color: black;
-}
-
-.man .man1 .man2 .im a {
+.man .man1 .man2 .im  a {
   text-decoration: none;
-
+  
 }
-
-.man .man1 .man3 .im a {
+.man .man1 .man3 .im  a {
   text-decoration: none;
 }
+.man .man1 .man3 .im  .p1{
 
-.man .man1 .man3 .im .p1 {
-
+  color: green;
+   font-weight: 600;
+}
+.man .man1 .man2 .im  .p1{
+  
   color: green;
   font-weight: 600;
 }
 
-.man .man1 .man2 .im .p1 {
-
-  color: green;
-  font-weight: 600;
-}
 @media (max-width:1024px){
   .man .mana img {
 
@@ -709,7 +656,7 @@ body {
 }
 
 /* login vala drop down  */
-.drop {
+.drop{
   background-color: white;
   width: 220px;
   height: 260px;
@@ -720,27 +667,22 @@ body {
   position: absolute;
   position: fixed;
 }
-
-.drop .drop1 a {
+.drop .drop1 a{
   padding: 5px;
   display: flex;
   justify-content: space-between;
 }
-
-.drop div a {
+.drop div a{
   text-decoration: none;
   color: black;
 }
-
-.drop div {
+.drop div{
   padding: 10px;
 }
-
-.drop .drop1 a span p {
+.drop .drop1 a span p{
   color: blue;
 }
-
-#output {
+#output{
   position: absolute;
   z-index: 1;
   margin-top: 50px;
