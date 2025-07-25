@@ -107,3 +107,32 @@ function thr(){
     ou.innerHTML=des
 
 }
+
+
+let count= 0
+setInterval(()=>{
+    if(count==0){
+    let slide = document.querySelector('.slider')
+    slide.style.marginLeft="-100%"
+    slide.style.transition = "margin-left 1s"
+    count = count+1
+    }
+     else if(count==1){
+    let slide = document.querySelector('.slider')
+   slide.style.marginLeft="-200%"
+    slide.style.transition = "margin-left 1s"
+    count= count+1
+    }
+    else if(count==2){
+    let slide = document.querySelector('.slider')
+    slide.style.marginLeft="-100%"
+    slide.style.transition = "margin-left 1s"
+    count= count+1
+    }
+    else if(count==3){
+    let slide = document.querySelector('.slider')
+    slide.style.marginLeft="0px"
+    slide.style.transition = "margin-left 1s"
+    count= 0
+    }
+},3000)

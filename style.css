@@ -7,9 +7,6 @@ html{
   box-sizing: border-box;
   font-family: "Segoe UI", sans-serif;
 }
-/* html{
-  overflow-x: hidden;
-} */
 body {
   background-color: #f1f2f4;
 }
@@ -177,19 +174,27 @@ body {
   }
 }
 /* second navbar complete */
-.slide{
-    
-    height: 34vh;
-justify-items: center;
-  text-align: center;
-  
-   
+.slide {
+  width: 100%;
+  overflow: hidden;
 }
-.slide img{
-    width: 98%;
-    padding-top: 5px;
 
+.slider{
+  display: flex;
+  width: max-content; /* only as wide as needed */
 }
+
+.slider div {
+  width: 98%;
+  display: flex;
+  justify-content: center;
+}
+
+.slider div img {
+  width: 98%;
+  height: 34vh;
+}
+
 @media (max-width:1024px) {
   .slide {
     height: 26vh;
